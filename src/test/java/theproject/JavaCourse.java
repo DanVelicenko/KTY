@@ -27,6 +27,7 @@ public class JavaCourse {
         //sumething(4);
         bklaJavaCourse('2', '3');
         againTests();
+        arraysExample(40);
     }
 
     private static String getsomeText() {
@@ -84,6 +85,11 @@ public class JavaCourse {
     }
     private static void againTests(){
         for( int i=0; i<19; i++) {
+            System.out.println("Itteration:" + i);
+        }
+    }
+    private static void arraysExample(int abc) {
+        for (int i = 0; i < abc; i++) {
             System.out.println("Itteration:" + i);
         }
     }
