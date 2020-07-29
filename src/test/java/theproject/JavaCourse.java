@@ -24,6 +24,8 @@ public class JavaCourse {
         exple();
         arrayExample();
         retro();
+        //sumething(4);
+        bklaJavaCourse('2', '3');
     }
 
     private static String getsomeText() {
@@ -55,7 +57,28 @@ public class JavaCourse {
 
         someNames.set(1, "Tractor");
 
-        System.out.println("Other array list: " + someNames.get(1));
+        /*System.out.println("Other array list: " + someNames.get(1));
+        List<Integer> aha = new ArrayList<>();
+        List<Object>[] rr ={aha};
+        System.out.println(
+
+                imutable list - java, library */
     }
 
+    /*private static void sumething(int sumenumbers){
+        if (sumenumbers == 1){
+            System.out.println("Nop dude, number is one");
+        } else if(sumenumbers < 1){
+            System.out.println("Youre wrong");
+        } else(sumenumbers > 1){
+            System.out.println("Exactly, it is 0");
+        }*/
+
+    private static void bklaJavaCourse(char Course, char Prop){
+        if (Course == Prop){
+            System.out.println("Same");
+        }else{
+            System.out.println("Nop");
+        }
+    }
 }
