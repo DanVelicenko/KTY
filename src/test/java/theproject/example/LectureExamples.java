@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LectureExamples {
-    public static void someprint(){
+    public static void someprint() {
         System.out.println("Hello, today date: ");
         System.out.println(java.time.LocalDate.now());
 
@@ -15,19 +15,19 @@ public class LectureExamples {
 
         String stringvariable = "Thank You!!!";
         System.out.println(stringvariable);
-
-        private static String getsomeText() {
+    }
+        public static String getsomeText() {
             return "So far so good";
         }
 
-        private static void arrayExample(){
+        public static void arrayExample(){
             String[] carNames={"Tojota", "Nissan", "BMW", "Lada"};
             System.out.println(carNames[2]);
 
             carNames[2] = "Tesla";
         }
 
-        private static void exple(){
+        public static void exple(){
             Map<Integer, String> people= new HashMap<Integer, String>();
             people.put(11, "Rembo");
             people.put(444, "Alex");
@@ -36,7 +36,7 @@ public class LectureExamples {
 
         }
 
-        private static void retro(){
+        public static void retro(){
             List<String> someNames = new ArrayList<>();
             someNames.add("BMW");
             someNames.add("Toyota");
@@ -62,23 +62,22 @@ public class LectureExamples {
             System.out.println("Exactly, it is 0");
         }*/
 
-        private static void bklaJavaCourse(char Course, char Prop){
+        public static void bklaJavaCourse(char Course, char Prop){
             if (Course == Prop){
                 System.out.println("Same");
             }else{
                 System.out.println("Nop");
             }
         }
-        private static void againTests(){
+        public static void againTests(){
             for( int i=0; i<19; i++) {
                 System.out.println("Itteration:" + i);
             }
         }
-        private static void arraysExample(int abc) {
+        public static void arraysExample(int abc) {
             for (int i = 0; i < abc; i++) {
                 System.out.println("Itteration:" + i);
             }
         }
 
     }
-}

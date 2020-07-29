@@ -1,7 +1,8 @@
 package theproject;
-import static theproject.example.LectureExamples.
 
 //Java basic - variables, strings etc. (crash course)
+
+import static theproject.example.LectureExamples.*;
 
 public class JavaCourse {
     public static void main(String[] args) {
