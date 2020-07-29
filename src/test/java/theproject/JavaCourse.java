@@ -1,7 +1,9 @@
 package theproject;
 
 import javax.lang.model.element.VariableElement;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 //Java basic - variables, strings etc. (crash course)
@@ -21,6 +23,7 @@ public class JavaCourse {
 
         exple();
         arrayExample();
+        retro();
     }
 
     private static String getsomeText() {
@@ -41,6 +44,18 @@ public class JavaCourse {
 
         System.out.println(people);
 
+    }
+
+    private static void retro(){
+        List<String> someNames = new ArrayList<>();
+        someNames.add("BMW");
+        someNames.add("Toyota");
+        someNames.add("Hunday");
+        someNames.add("Jeep");
+
+        someNames.set(1, "Tractor");
+
+        System.out.println("Other array list: " + someNames.get(1));
     }
 
 }
