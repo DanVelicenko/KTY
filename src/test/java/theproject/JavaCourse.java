@@ -26,6 +26,7 @@ public class JavaCourse {
         retro();
         //sumething(4);
         bklaJavaCourse('2', '3');
+        againTests();
     }
 
     private static String getsomeText() {
@@ -79,6 +80,11 @@ public class JavaCourse {
             System.out.println("Same");
         }else{
             System.out.println("Nop");
+        }
+    }
+    private static void againTests(){
+        for( int i=0; i<19; i++) {
+            System.out.println("Itteration:" + i);
         }
     }
 }
