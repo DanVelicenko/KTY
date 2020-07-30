@@ -8,7 +8,7 @@ public class ClassRoom {
     private Integer classRoomNumber;
     private ArrayList<Student> studentList;
 
-    public ClassRoom(Integer classRoomNumber, ArrayList<Student> studentList) {
+    public ClassRoom(Integer classRoomNumber, String studentList) {
         setClassRoomNumber(classRoomNumber);
         setStudentList(studentList);
     }

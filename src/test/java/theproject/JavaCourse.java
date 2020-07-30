@@ -1,4 +1,5 @@
 package theproject;
+
 import theproject.human.Student;
 import theproject.school.ClassRoom;
 
@@ -8,6 +9,6 @@ public class JavaCourse {
         System.out.println(ClassRoom);
 
 
-        Student s1 = new Student("Arnolds", "Makds", 44, 444, true);
+        Student s1 = new Student("Arnolds", "Makds", 44, true, "1111");
     }
 }
