@@ -1,15 +1,25 @@
 package theproject.human;
 
-public class Human {
-    private final String firstName;
-    private final String lastName;
-    private final Integer age;
-    private final Integer personCode;
+public class Student extends Human{
+    private Boolean isActiveStudent;
 
-    public Human(String firstName, String lastName, Integer age, Integer personCode) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.personCode = personCode;
+    public Student(String name, String surname, Integer age, Boolean isActiveStudent, String personCode){
+        super(name, surname, age, personCode);
+        setActiveStudent(isActiveStudent);
+    }
+
+    public Boolean getActiveStudent() {
+        return isActiveStudent;
+    }
+
+    public void setActiveStudent(Boolean activeStudent) {
+        isActiveStudent = activeStudent;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "isActiveStudent=" + isActiveStudent +
+                '}';
     }
 }
